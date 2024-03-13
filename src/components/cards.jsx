@@ -22,7 +22,7 @@ export const Cards = ({ title, image, price, description }) => {
 
     return (
         <>
-            <div className="product12 border-[2px] border-[#ff4242] p-[20px] text-center rounded-[20px]">
+            <div className="product12 border-[2px] border-[#ff4242] p-[20px] text-center rounded-[20px] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
                 <div className="w-[350px] h-[450px] ml-[80px]">
                     <img className="w-full h-full object-contain" src={image} alt="img" />
                 </div>

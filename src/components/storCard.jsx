@@ -14,11 +14,10 @@ export const StoreCard = ({ image, title, description, price, id }) => {
     };
 
 
-    // Umumiy narxni hisoblash
     const totalPrice = (price * quantity).toFixed(2);
 
     return (
-        <div key={id} className="store-card flex gap-[300px] mt-[50px] h-[400px] rounded-[20px] border-[2px] border-[red]">
+        <div key={id} className="store-card flex gap-[300px] mt-[50px] h-[400px] rounded-[20px] border-[2px] border-[red] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
             <div>
                 <img className="w-[300px] h-[380px] ml-[50px]" src={image} alt="img" />
             </div>
